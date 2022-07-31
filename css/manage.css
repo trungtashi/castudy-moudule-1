@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+}
+.post{
+    margin: 10px  auto;
+}
+table{
+    width: 70% !important;
+}
+td textarea{
+    width: 100%;
+}
