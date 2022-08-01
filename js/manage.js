@@ -24,14 +24,14 @@ function add(){
 }
 function render(){
     table = 
-    `<thead>
-        <tr>
-            <th>Id</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Action</th>
-        </tr>
-    </thead>`
+    "<thead>"
+        "<tr>"
+            "<th>Id</th>"
+            "<th>Title</th>"
+            "<th>Description</th>"
+            "<th>Action</th>"
+        "</tr>"
+    "</thead>"
     for(let i = 0; i < data.length; i++){
         table += 
         `<tbody>

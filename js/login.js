@@ -4,12 +4,15 @@ function login(){
     let account = document.getElementById('account').value
     let password = document.getElementById('password').value
 
-    if (account !== website_admin || password !== website_password) {
-        alert("Đăng nhập thất bại, mời đăng nhập lại!");
-        return false;
-    } else if (username === website_admin && password === website_password) {
+
+    if(account != website_admin  && password != website_password){
+        alert('Đang nhập thất bại')
+        return false
+    }
+    else
+    {
         localStorage.setItem("account", website_admin)
-        alert("Đăng nhập thành công!")
+        alert('Đăng nhập thành công')
     }
 
 }
