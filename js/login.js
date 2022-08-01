@@ -5,13 +5,12 @@ function login(){
     let password = document.getElementById('password').value
 
 
-    if(account != website_admin  && password != website_password){
+    if(account !== website_admin  || password !== website_password){
         alert('Đang nhập thất bại')
         return false
     }
     else
     {
-        localStorage.setItem("account", website_admin)
         alert('Đăng nhập thành công')
     }
 
